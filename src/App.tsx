@@ -3,7 +3,7 @@ import "./App.css";
 import { AboutSection } from "./components/AboutSection";
 import { EducationSection } from "./components/EducationSection";
 import { NavBar } from "./components/NavBar";
-import { ProjectSection } from "./components/ProjectSection";
+//import { ProjectSection } from "./components/ProjectSection";
 import { SkillSection } from "./components/SkillSection";
 import { WelcomeSection } from "./components/WelcomeSection";
 import { WorkExperienceSection } from "./components/WorkExperienceSection";
@@ -14,7 +14,7 @@ function App() {
       <WelcomeSection />
       <AboutSection />
       <SkillSection />
-      <ProjectSection />
+      {/*<ProjectSection />*/}
       <EducationSection />
       <WorkExperienceSection />
       <NavBar />

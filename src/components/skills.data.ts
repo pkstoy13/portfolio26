@@ -16,6 +16,10 @@ import {
   SiAngular,
   SiJavascript,
   SiTerraform,
+  SiBurpsuite,
+  SiWireshark,
+  SiMongodb,
+  SiSqlite,
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
@@ -41,7 +45,11 @@ export const skills = [
   },
   {
     title: "Databases",
-    items: [{ name: "PostgreSQL", icon: SiPostgresql }],
+    items: [
+      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "SQLite", icon: SiSqlite },
+    ],
   },
   {
     title: "Cloud",
@@ -62,6 +70,10 @@ export const skills = [
   },
   {
     title: "Cyber",
-    items: [{ name: "Linux", icon: SiLinux }],
+    items: [
+      { name: "Linux", icon: SiLinux },
+      { name: "BurpSuite", icon: SiBurpsuite },
+      { name: "Wireshark", icon: SiWireshark },
+    ],
   },
 ];
