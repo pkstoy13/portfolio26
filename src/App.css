@@ -9,4 +9,5 @@
   place-items: center;
 
   color: white;
+  overflow-x: hidden;
 }

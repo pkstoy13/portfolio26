@@ -6,6 +6,10 @@ import {
 } from "@/components/ui/navigation-menu";
 
 //import { Github, Linkedin, Mail } from "lucide-react";
+import GitHub from "../assets/github.svg";
+import LinkedIn from "../assets/linkedin-svgrepo-com.svg";
+import Gmail from "../assets/gmail.svg";
+import Instagram from "../assets/instagram.svg";
 
 export function NavBar() {
   return (
@@ -18,7 +22,7 @@ export function NavBar() {
             rel='noopener noreferrer'
             className='flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors'
           >
-            <div className='h-4 w-4' />
+            <img src={GitHub} alt='GitHub Icon' className='h-4 w-4' />
             GitHub
           </NavigationMenuLink>
         </NavigationMenuItem>
@@ -30,7 +34,7 @@ export function NavBar() {
             rel='noopener noreferrer'
             className='flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors'
           >
-            <div className='h-4 w-4' />
+            <img src={LinkedIn} alt='LinkedIn Icon' className='h-4 w-4' />
             LinkedIn
           </NavigationMenuLink>
         </NavigationMenuItem>
@@ -40,8 +44,20 @@ export function NavBar() {
             href='mailto:pkstoyanov1@gmail.com'
             className='flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors'
           >
-            <div className='h-4 w-4' />
+            <img src={Gmail} alt='Gmail Icon' className='h-4 w-4' />
             Contact
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <NavigationMenuLink
+            href='https://www.instagram.com/philipstoyanov_/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors'
+          >
+            <img src={Instagram} alt='Instagram Icon' className='h-4 w-4' />
+            Instagram
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
