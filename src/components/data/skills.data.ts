@@ -21,6 +21,7 @@ import {
   SiMongodb,
   SiSqlite,
   SiPostman,
+  SiNextdotjs,
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
@@ -42,13 +43,13 @@ export const skills = [
       { name: "Vue.js", icon: SiVuedotjs },
       { name: "Angular", icon: SiAngular },
       { name: "TypeScript", icon: SiTypescript },
-      { name: "JavaScript", icon: SiJavascript },
+      { name: "Next.js", icon: SiNextdotjs },
     ],
   },
   {
     title: "Databases",
     items: [
-      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "Postgres", icon: SiPostgresql },
       { name: "MongoDB", icon: SiMongodb },
       { name: "SQLite", icon: SiSqlite },
     ],
@@ -65,8 +66,8 @@ export const skills = [
     items: [
       { name: "Docker", icon: SiDocker },
       { name: "Kubernetes", icon: SiKubernetes },
-      { name: "Terraform", icon: SiTerraform },
       { name: "GitHub", icon: SiGithub },
+      { name: "Terraform", icon: SiTerraform },
       { name: "Nginx", icon: SiNginx },
     ],
   },
