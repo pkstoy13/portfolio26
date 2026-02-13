@@ -14,7 +14,6 @@ import {
   SiFlask,
   SiVuedotjs,
   SiAngular,
-  SiJavascript,
   SiTerraform,
   SiBurpsuite,
   SiWireshark,
