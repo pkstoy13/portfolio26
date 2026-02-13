@@ -1,6 +1,6 @@
 import { SectionLayout } from "./SectionLayout";
 import { SkillCard } from "./SkillCard";
-import { skills } from "./skills.data";
+import { skills } from "./data/skills.data";
 
 export function SkillSection() {
   return (

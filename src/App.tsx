@@ -17,6 +17,7 @@ function App() {
       {/*<ProjectSection />*/}
       <EducationSection />
       <WorkExperienceSection />
+      <div className='mb-12' />
       <NavBar />
     </div>
   );

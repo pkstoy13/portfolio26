@@ -20,6 +20,7 @@ import {
   SiWireshark,
   SiMongodb,
   SiSqlite,
+  SiPostman,
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
@@ -31,6 +32,7 @@ export const skills = [
       { name: "Spring", icon: SiSpring },
       { name: ".NET", icon: SiDotnet },
       { name: "Flask", icon: SiFlask },
+      { name: "Postman", icon: SiPostman },
     ],
   },
   {
