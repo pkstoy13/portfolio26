@@ -2,7 +2,7 @@ import Headshot from "../assets/headshot.jpeg";
 
 export function WelcomeSection() {
   return (
-    <section className='max-w-3xl mx-auto pt-20 px-4 text-center space-y-4'>
+    <section className='max-w-3xl mx-auto pt-32 px-4 text-center space-y-4'>
       <img
         src={Headshot}
         alt='Philip Stoyanov'

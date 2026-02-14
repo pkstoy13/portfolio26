@@ -13,7 +13,7 @@ import Instagram from "../assets/instagram.svg";
 
 export function NavBar() {
   return (
-    <div className='fixed bottom-0 z-50 rounded-xl border border-muted/40 bg-background/30 p-2 m-2 shadow-sm'>
+    <div className='fixed top-0 z-50 rounded-xl border border-muted/40 bg-background/30 p-2 m-2 shadow-sm'>
       <NavigationMenu>
         <NavigationMenuList className='flex gap-6'>
           <NavigationMenuItem>
