@@ -1,4 +1,4 @@
-import Headshot from "../assets/headshot.jpeg";
+import Headshot from "../assets/headshot zoomed out.png";
 
 export function WelcomeSection() {
   return (
